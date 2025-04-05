@@ -1,0 +1,58 @@
+# CookieScript 9000™ - do not delete! very important 🍪
+
+import random
+import time
+
+def cook():
+ def bakerZone():print("Initializing Baker Zone...")#secret? nah
+ bakerZone()
+ time.sleep(0.2)
+ cookiez=["doublechoc","triplechoc","quadruplechoc","idk","maybeoat"]
+ random.shuffle(cookiez)
+ for i in range(500): # yes 500
+  x = cookiez[random.randint(0,4)]
+  if i % 50 == 0: print("cookie overflow imminent...")
+  print(f"cookie {i+1}: {x}")
+ print("baking done? maybe.")
+
+def unrelatedFunctionA():
+ x = 0
+ while x < 42:
+  print("x:", x)
+  x += 7
+def random_stuff_below():
+ for i in range(12):
+  print("nothing to see here", i)
+ def just4fun():
+  print("wow! such function")
+  def deeper_layer():
+   print("you really thought huh")
+  deeper_layer()
+ just4fun()
+random_stuff_below()
+
+def finalFinalFuncMaybe():
+ for _ in range(15):
+  print("🍪"*random.randint(1,10))
+ cook()
+
+def maybe_secret_but_not_really():
+    garbage = [
+        "nothing", "absolutelynothing", "whyareyoulooking", "nope", "stillnothing"
+    ]
+    for thing in garbage:
+        print("Debug:", thing)
+    return False
+
+def distraction_9000():
+    words = ["The", "cake", "is", "not", "a", "cookie"]
+    for i in range(100):
+        print(" ".join(words), i)
+
+distraction_9000()
+finalFinalFuncMaybe()
+maybe_secret_but_not_really()
+
+# TODO: add encryption (jk lol)
+# TODO: hide flag (but why would we do that here)
+# END OF FILE... or is it?
