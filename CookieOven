@@ -38,7 +38,7 @@ def finalFinalFuncMaybe():
 
 def maybe_secret_but_not_really():
     garbage = [
-        "nothing", "absolutelynothing", "whyareyoulooking", "nope", "stillnothing"
+        "nothing", "absolutelynothing", "whyareyoulooking", "nope", "stillnothing" "Vigenère"
     ]
     for thing in garbage:
         print("Debug:", thing)
