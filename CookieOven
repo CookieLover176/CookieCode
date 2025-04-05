@@ -7,7 +7,7 @@ def cook():
  def bakerZone():print("Initializing Baker Zone...")#secret? nah
  bakerZone()
  time.sleep(0.2)
- cookiez=["doublechoc","triplechoc","quadruplechoc","idk","maybeoat"]
+ cookiez=["doublechoc","triplechoc","quadruplechoc","idk","maybeoat", "encrypted"]
  random.shuffle(cookiez)
  for i in range(500): # yes 500
   x = cookiez[random.randint(0,4)]
